@@ -1,0 +1,96 @@
+.right-div{
+    width:49%;
+    height:850px; 
+    margin:0;
+    padding:0;  
+    background-color:rgba(0,0,0,0.06);
+    float: right;
+    padding:10px;
+
+ }
+ .Food-tab{
+  margin:0;
+  border: none;
+  width:20%;
+  height:90px; 
+  font-size: 16px;
+  display:block; 
+  background-color:white;
+  outline: none;
+  border: 0.5px solid rgba(0,0,0,0.06) ;
+  border-radius:0px;
+  float:left;  
+  color:red;   
+ }
+ .Food-tab:hover{
+     background-color:white;
+    opacity:0.5; 
+  
+ }
+ .Food-btn .Food-tab:first-child{
+   border-radius:30px 0px 0px 0px; 
+ }
+ .Food-btn .Food-tab:last-child{
+   border-radius: 0px 30px 0px 0px;
+     font-size:40px; 
+ }
+ .Food-btn .active{
+    background-color:red;
+    color:white; 
+ }
+
+ .menu{
+ display:inline-block;	
+ width:100%;
+ background-color:white;  
+ height:500px; 
+ padding-top:10px;   
+
+
+ }
+
+ .type{
+     width:17%;
+     height:100px; 
+     margin:1.25%;  
+     background-color:rgba(0,0,0,0.06); 
+     font-size:16px;
+     outline:none;
+     float:left;
+     border:none;
+     border-radius:10px;    
+
+ }
+ .subbuttons{
+  display:block;   
+  }
+
+  .subbuttons .active{
+      border-bottom:2px solid red; 
+  }
+
+
+ .sub-tab{
+  border-radius:0px;  
+  height:50px;
+  border:none;
+
+ }
+ input[type=text] {
+    width:100%;
+    height:40px; 
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 20px;
+    font-size: 16px;
+    padding: 12px 20px 12px 40px;
+    background-color: white;
+    background-image: url('https://www.w3schools.com/howto/searchicon.png');
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    outline: none;
+}
+
+.hidden{
+    display:none; 
+}

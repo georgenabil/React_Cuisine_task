@@ -1,0 +1,25 @@
+.navbar{
+    width:100%;
+    background-color:white; 
+    top:0; 
+    height:60px;    
+
+ } 
+ .navbar .img-div{
+  height:50px; 
+  width:40%;
+  display:inline-block;
+  margin-left:2%; 
+ }
+ .navbar .buttons{
+  height:50px;
+  width: 50%;
+  float:right 
+
+ }
+ .navbar img{
+  height:50px; 
+  width:40%;
+
+ }
+ 
